@@ -1,4 +1,16 @@
+/* cuttlefishss */
+:root {
+    /* button type 1 */
+    --btnType1-L1: #ffffff;
+    --btnType1-L2: #000000;
 
+    /* button type 2 */
+    --btnType2: #ffffff;
+    --btnType2-c: #000000;
+}
+
+
+/* button type 1 */
 .btnType1 {
     color: white;
     outline: none;
@@ -10,10 +22,11 @@
     font-weight: 600;
     width: fit-content;
     margin: 5px 0;
+    background-image: linear-gradient(to right,var(--btnType1-L1), var(--btnType1-L2));
 }
 
 .btnType1:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     box-shadow: 0px 3px 6px #a7a6a6cb;
 }
 
@@ -23,22 +36,27 @@
     box-shadow: none;
 }
 
-.btnType1-1 {
-    background-image: linear-gradient(to right,#94ddfa, #4444f5);
+/* button type 2 */
+
+.btnType2 {
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 40px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+    margin: 5px 0;
+    background-color: var(--btnType2);
 }
 
-.btnType1-2 {
-    background-image: linear-gradient(to right,#f7d986, #fd568e);
+.btnType2:hover {
+    border-radius: 30px;
+    background-color: var(--btnType2-c);
 }
-.btnType1-3 {
-    background-image: linear-gradient(to right,#d58bf8, #5d0292);
-}
-.btnType1-4 {
-    background-image: linear-gradient(to right,#818181, #303030);
-}
-.btnType1-5 {
-    background-image: linear-gradient(to right,#5fbdfc, #64f5a0);
-}
-.btnType1-6 {
-    background-image: linear-gradient(to right,#fcec63, #fd693c);
+
+.btnType2:active {
+    opacity: 0.6;
 }
