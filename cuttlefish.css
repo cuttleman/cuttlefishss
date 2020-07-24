@@ -44,7 +44,7 @@
     border: none;
     border-radius: 5px;
     padding: 14px 40px;
-    transition: all 0.3s linear;
+    transition: all 0.25s linear;
     cursor: pointer;
     font-weight: 600;
     width: fit-content;
