@@ -15,7 +15,12 @@
 
 ### **Step 1.**
 
+- Full version  
 `<link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.css">` 📝 Copy This!
+
+- Minify version  
+`<link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.min.css">` 📝 Copy This!
+
 
 ```html
 <!DOCTYPE html>
@@ -23,7 +28,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.css"> 👈 Here
+        👇 Paste Here
+        <link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.css">
         <title>Start Project</title>
     </head>
     <body>

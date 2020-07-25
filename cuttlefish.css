@@ -11,6 +11,14 @@
     /* button type 3 */
     --btnType3-L1: #ffffff;
     --btnType3-L2: #000000;
+    
+    /* button type 4 */
+    --btnType4-c: #000000;
+
+    /* card type 1 */
+    --width-size: 200px;
+    --height-size: 200px;
+    --card-btn: #ffffff;
 }
 
 
@@ -117,4 +125,101 @@
     }100%{
         background-image: linear-gradient(to right, var(--btnType3-L1)100%,var(--btnType3-L2) 100%);
     }
+}
+
+/* button type 4 */
+.btnType4 {
+    color: var(--btnType4-c);
+    outline: none;
+    border: 1px solid var(--btnType4-c);
+    border-radius: 5px;
+    padding: 14px 40px;
+    transition: all 0.25s linear;
+    cursor: pointer;
+    font-weight: 600;
+    width: fit-content;
+    margin: 5px 0;
+    background-color: white;
+}
+
+.btnType4:hover {
+    background-color: var(--btnType4-c);
+    color: white;
+}
+
+.btnType4:active{
+    opacity: 0.5;
+}
+
+/* card type 1 */
+
+.cardType1 {
+    width: var(--width-size);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.cardType1:hover .cardType1__img > img {
+    transform: scale(1.1);
+}
+
+.cardType1.cuttleItem {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.cuttleItem a {
+    pointer-events: none;
+}
+
+.cardType1__img {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.cardType1__img > img {
+    width: 100%;
+    height: var(--height-size);
+    float: left;
+    transition: all 0.2s linear;
+}
+
+.cardType1 > .cardType1__contents {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.cardType1__title {
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.cardType1__explain {
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+}
+
+.cardType1__btn {
+    margin-top: 20px;
+    align-self: flex-end;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: var(--card-btn);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 13px 25px;
+    text-decoration: none;
+    transition: opacity 0.2s linear;
+}
+
+.cardType1__btn:active {
+    opacity: 0.6;
 }
