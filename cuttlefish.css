@@ -153,20 +153,18 @@
 
 /* card type 1 */
 
-.cardType1, .cardType2 {
+.cardType1 {
     width: var(--width-size);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
 
-.cardType1:hover .cardType1__img > img,
-.cardType2:hover .cardType2__img > img {
+.cardType1:hover .cardType1__img > img {
     transform: scale(1.1);
 }
 
-.cardType1.cuttleItem,
-.cardType2.cuttleItem {
+.cardType1.cuttleItem {
     cursor: pointer;
     margin: 0 10px;
 }
@@ -175,23 +173,20 @@
     pointer-events: none;
 }
 
-.cardType1__img,
-.cardType2__img {
+.cardType1__img {
     width: 100%;
     height: fit-content;
     overflow: hidden;
 }
 
-.cardType1__img > img,
-.cardType2__img > img {
+.cardType1__img > img {
     width: 100%;
     height: var(--height-size);
     float: left;
     transition: all 0.2s linear;
 }
 
-.cardType1 > .cardType1__contents,
-.cardType2 > .cardType2__contents {
+.cardType1 > .cardType1__contents {
     width: 100%;
     padding: 20px;
     background-color: white;
@@ -200,20 +195,18 @@
     box-sizing: border-box;
 }
 
-.cardType1__title,
-.cardType2__title {
+.cardType1__title {
     font-weight: 700;
     font-size: 23px;
     margin-bottom: 5px;
 }
 
-.cardType1__explain,
-.cardType2__explain {
+.cardType1__explain {
     color: rgb(90, 90, 90);
     font-size: 15px;
 }
 
-.cardType1__btn, .cardType2__btn {
+.cardType1__btn {
     margin-top: 20px;
     align-self: flex-end;
     outline: none;
@@ -227,25 +220,6 @@
     transition: opacity 0.2s linear;
 }
 
-.cardType1__btn:active,
-.cardType2__btn:active {
+.cardType1__btn:active {
     opacity: 0.6;
-}
-
-/* card type 2 */
-
-.cardType2 {
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-.cardType2 > .cardType2__contents {
-    margin-top: -20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    z-index: 3;
-}
-
-.cardType2__btn{
-    border-radius: 10px;
 }
