@@ -8,52 +8,40 @@
 
 <br/>
 
---------
+---
+
 <br/>
 
 ## **😎Usage**
 
 ### **Step 1.**
 
-- Full version  
-`<link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.css">` 📝 Copy This!
-
-- Minify version  
 `<link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.min.css">` 📝 Copy This!
-
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        👇 Paste Here
-        <link rel="stylesheet" href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.css">
-        <title>Start Project</title>
-    </head>
-    <body>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    👇 Paste Here
+    <link
+      rel="stylesheet"
+      href="https://Front-Juno.github.io/cuttlefishss/cuttlefish.css"
+    />
+    <title>Start Project</title>
+  </head>
+  <body></body>
 </html>
 ```
+
 <br/>
 
 ### **Step 2.**
 
-👇  Let's go to the home page 🏃‍♀️🏃‍♂️💨<br/>
+👇 Let's go to the home page 🏃‍♀️🏃‍♂️💨<br/>
 <a href="https://front-juno.github.io/cuttlefishss/" target="_blank">Cuttlefishss Homepage</a>
 
 #### Just Copy and Paste💁‍♂️
 
 <img src="image/usage.gif">
-
-
-
-
-
-
-
-
-
-
-
