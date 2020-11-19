@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="icon", href="https://front-juno.github.io/images-fonts/images/cuttlefish/favicon.png", type="image/png")
+    link(rel="stylesheet" href="style.css")
+    title Cuttlefishss
+  body
+    include ./partials/header
+    include ./partials/summary
+    main
+        include ./partials/main
+    include ./partials/footer
+    include ./partials/adminInfo
+    .modal#jsModal
+        span COPIED🦑
+    script(src="main.js")
