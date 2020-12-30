@@ -17,7 +17,7 @@ const handleClick = (e) => {
   } = e.currentTarget;
   if (localName == "code") {
     const LINKTAG =
-      "<link rel='stylesheet' href='https://Front-Juno.github.io/cuttlefishss/cuttlefish.min.css'>";
+      "<link rel='stylesheet' href='https://mestuss.github.io/cuttlefishss/cuttlefish.min.css'>";
     navigator.clipboard.writeText(LINKTAG).then(() => {
       return modal(offsetTop, offsetLeft);
     });
