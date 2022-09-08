@@ -1,4 +1,4 @@
-<a href="https://Mestuss.github.io/cuttlefishss/" target="_blank"><img src="image/cuttlefishss.png" width="300px"></a>
+<a href="https://cuttleman.github.io/cuttlefishss/" target="_blank"><img src="image/cuttlefishss.png" width="300px"></a>
 
 # **🦑Cuttlefishss** - Cuttlefish + Css
 
@@ -16,7 +16,7 @@
 
 ### **Step 1.**
 
-`<link rel="stylesheet" href="https://Mestuss.github.io/cuttlefishss/cuttlefish.min.css">` 📝 Copy This!
+`<link rel="stylesheet" href="https://cuttleman.github.io/cuttlefishss/cuttlefish.min.css">` 📝 Copy This!
 
 ```html
 <!DOCTYPE html>
@@ -27,7 +27,7 @@
     👇 Paste Here
     <link
       rel="stylesheet"
-      href="https://Mestuss.github.io/cuttlefishss/cuttlefish.css"
+      href="https://cuttleman.github.io/cuttlefishss/cuttlefish.css"
     />
     <title>Start Project</title>
   </head>
@@ -40,7 +40,7 @@
 ### **Step 2.**
 
 👇 Let's go to the home page 🏃‍♀️🏃‍♂️💨<br/>
-<a href="https://Mestuss.github.io/cuttlefishss/" target="_blank">Cuttlefishss Homepage</a>
+<a href="https://cuttleman.github.io/cuttlefishss/" target="_blank">Cuttlefishss Homepage</a>
 
 #### Just Copy and Paste💁‍♂️
 
