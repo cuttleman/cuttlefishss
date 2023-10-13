@@ -108,6 +108,29 @@ summary > code {
   margin-bottom: 20px;
 }
 
+summary > .process {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+summary > .process > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+summary > .process img {
+  width: auto;
+  height: 300px;
+}
+
+summary > .process > span {
+  margin: 0 10px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
 code:hover {
   transform: translateY(-2px);
   box-shadow: 0px 3px 5px #969696;
@@ -119,7 +142,7 @@ code:active {
 }
 
 code::before {
-  content: "<link rel='stylesheet' href='https://Mestuss.github.io/cuttlefishss/cuttlefish.min.css'>";
+  content: "<link rel='stylesheet' href='https://cuttleman.github.io/cuttlefishss/cuttlefish.min.css'>";
 }
 
 summary > .usage-code {
@@ -206,49 +229,6 @@ footer {
 
 footer > .copyright {
   font-size: 13px;
-}
-
-.adminInfo {
-  position: fixed;
-  bottom: 40px;
-  left: 0px;
-  display: flex;
-  box-sizing: border-box;
-  transform: translateX(var(--info-hide));
-  transition: transform 0.4s ease-in-out;
-  z-index: 999;
-}
-
-.adminInfo:hover {
-  transform: translateX(0px);
-}
-
-.adminInfo > .adminInfo__content {
-  width: var(--info-width);
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #f5f5f5;
-}
-
-.adminInfo::after {
-  content: "INFO\A  👈";
-  white-space: pre-wrap;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 7px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background-color: #b2bec3;
-  cursor: pointer;
-}
-
-.adminInfo img {
-  width: 40px;
 }
 
 @keyframes modal {

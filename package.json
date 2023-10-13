@@ -2,8 +2,8 @@
   "name": "cuttlefishss",
   "version": "1.0.0",
   "description": "Cuttlefishss is stylesheet for html element with class attribute",
-  "repository": "https://github.com/Front-Juno/cuttlefishss",
-  "author": "Front-Juno",
+  "repository": "https://github.com/cuttleman/cuttlefishss",
+  "author": "cuttleman",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.10.5",

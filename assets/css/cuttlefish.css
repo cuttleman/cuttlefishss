@@ -247,14 +247,16 @@
 .cardType1__img,
 .cardType2__img {
   width: 100%;
-  height: fit-content;
+  height: var(--height-size);
   overflow: hidden;
 }
 
 .cardType1__img > img,
 .cardType2__img > img {
   width: 100%;
-  height: var(--height-size);
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   float: left;
   transition: all 0.2s linear;
 }
@@ -371,6 +373,9 @@
 
 .cardType3__img > img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .cardType3__contents {

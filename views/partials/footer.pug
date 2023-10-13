@@ -1,2 +1,6 @@
 footer
-    .copyright Copyright &copy; 2022. Front-Juno. All rights reserved.
+    .copyright
+        | Copyright &copy; 
+        span
+            =`${new Date().getFullYear()}`
+        |. Front-Juno. All rights reserved.
